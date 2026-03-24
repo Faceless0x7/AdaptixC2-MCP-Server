@@ -1,0 +1,40 @@
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+.gemini/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+.cursorrules
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Temporary files
+/tmp/
+
+# Build and Distribution
+dist/
+build/
+*.egg-info/
+
+# Project specific
+mcp_inspector_config.json
+ARCHITECTURE.md

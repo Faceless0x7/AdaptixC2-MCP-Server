@@ -1,0 +1,22 @@
+# AdaptixC2 MCP Server — Python Dependencies
+
+# MCP SDK
+mcp[cli]>=1.5.0
+
+# HTTP client
+httpx>=0.27.0
+
+# WebSocket client
+websockets>=12.0
+
+# Data validation
+pydantic>=2.7.0
+
+# Structured logging
+structlog>=24.1.0
+
+# Environment config
+python-dotenv>=1.0.0
+
+# YAML Parsing
+pyyaml>=6.0.0

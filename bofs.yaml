@@ -1,0 +1,214 @@
+# AI Access Configuration for BOF Modules
+# Uncomment a category and the required commands beneath it to grant the AI access to them.
+# If you leave "all" instead of a list of commands, all commands in that category will be allowed.
+
+# AD-BOF:
+#   - adwssearch
+#   - badtakeover
+#   - dcsync single
+#   - dcsync all
+#   - ldapsearch
+#   - ldapq computers
+#   - readlaps
+#   - webdav enable
+#   - webdav status
+
+# ADCS-BOF:
+#   - certi auth
+#   - certi enum
+#   - certi request
+#   - certi request_on_behalf
+#   - certi shadow
+
+# Creds-BOF:
+#   - askcreds
+#   - get-netntlm
+#   - hashdump
+#   - cookie-monster
+#   - nanodump
+#   - nanodump_ppl_dump
+#   - nanodump_ppl_medic
+#   - nanodump_ssp
+#   - underlaycopy
+#   - lsadump_secrets
+#   - lsadump_sam
+#   - lsadump_cache
+
+# Elevation-BOF:
+#   - getsystem token
+#   - uacbybass sspi
+#   - uacbybass regshellcmd
+#   - potato-dcom
+#   - potato-print
+
+# Execution-BOF:
+#   - execute-assembly
+#   - noconsolation
+
+# Injection-BOF:
+#   - inject-cfg
+#   - inject-sec
+#   - inject-poolparty
+#   - inject-32to64
+
+# Kerbeus-BOF:
+#   - kerbeus asreproasting
+#   - kerbeus asktgt
+#   - kerbeus asktgs
+#   - kerbeus changepw
+#   - kerbeus dump
+#   - kerbeus hash
+#   - kerbeus kerberoasting
+#   - kerbeus klist
+#   - kerbeus ptt
+#   - kerbeus describe
+#   - kerbeus purge
+#   - kerbeus renew
+#   - kerbeus s4u
+#   - kerbeus cross_s4u
+#   - kerbeus tgtdeleg
+#   - kerbeus triage
+
+# LDAP-BOF:
+#   - ldap get-acl
+#   - ldap get-attribute
+#   - ldap get-computers
+#   - ldap get-groups
+#   - ldap get-groupmembers
+#   - ldap get-delegation
+#   - ldap get-domaininfo
+#   - ldap get-maq
+#   - ldap get-object
+#   - ldap get-rbcd
+#   - ldap get-spn
+#   - ldap get-uac
+#   - ldap get-users
+#   - ldap get-usergroups
+#   - ldap get-writable
+#   - ldap move-object
+#   - ldap add-ace
+#   - ldap add-attribute
+#   - ldap add-computer
+#   - ldap add-delegation
+#   - ldap add-group
+#   - ldap add-groupmember
+#   - ldap add-ou
+#   - ldap add-rbcd
+#   - ldap add-sidhistory
+#   - ldap add-spn
+#   - ldap add-user
+#   - ldap add-uac
+#   - ldap add-genericall
+#   - ldap add-genericwrite
+#   - ldap add-dcsync
+#   - ldap add-asreproastable
+#   - ldap add-unconstrained
+#   - ldap add-constrained
+#   - ldap set-attribute
+#   - ldap set-delegation
+#   - ldap set-owner
+#   - ldap set-spn
+#   - ldap set-password
+#   - ldap set-uac
+#   - ldap remove-ace
+#   - ldap remove-attribute
+#   - ldap remove-delegation
+#   - ldap remove-dcsync
+#   - ldap remove-genericall
+#   - ldap remove-genericwrite
+#   - ldap remove-groupmember
+#   - ldap remove-object
+#   - ldap remove-rbcd
+#   - ldap remove-spn
+#   - ldap remove-uac
+
+# LateralMovement:
+#   - jump psexec
+#   - jump scshell
+#   - invoke winrm
+#   - invoke scshell
+#   - token make
+#   - token steal
+#   - runas-user
+#   - runas-session
+
+# MSSQL-BOF:
+#   - mssql 1434udp
+#   - mssql adsi
+#   - mssql agentcmd
+#   - mssql agentstatus
+#   - mssql checkrpc
+#   - mssql clr
+#   - mssql columns
+#   - mssql databases
+#   - mssql disableclr
+#   - mssql disableole
+#   - mssql disablerpc
+#   - mssql disablexp
+#   - mssql enableclr
+#   - mssql enableole
+#   - mssql enablerpc
+#   - mssql enablexp
+#   - mssql impersonate
+#   - mssql info
+#   - mssql links
+#   - mssql olecmd
+#   - mssql query
+#   - mssql rows
+#   - mssql search
+#   - mssql smb
+#   - mssql tables
+#   - mssql users
+#   - mssql whoami
+#   - mssql xpcmd
+
+# PostEx-BOF:
+#   - firewallrule add
+#   - screenshot_bof
+#   - sauroneye
+
+# Process-BOF:
+#   - findobj module
+#   - findobj prochandle
+#   - process conn
+#   - procfreeze freeze
+#   - procfreeze unfreeze
+
+# RelayInformer-BOF:
+#   - relay-informer http
+#   - relay-informer ldap
+#   - relay-informer mssql
+#   - relay-informer smb
+
+# SAL-BOF:
+#   - arp
+#   - cacls
+#   - dir
+#   - env
+#   - ipconfig
+#   - listdns
+#   - netstat
+#   - nslookup
+#   - privcheck all
+#   - privcheck alwayselevated
+#   - privcheck autologon
+#   - privcheck credmanager
+#   - privcheck hijackablepath
+#   - privcheck modautorun
+#   - privcheck modsvc
+#   - privcheck tokenpriv
+#   - privcheck unattendfiles
+#   - privcheck unquotedsvc
+#   - privcheck pshistory
+#   - privcheck uacstatus
+#   - privcheck vulndrivers
+#   - routeprint
+#   - uptime
+#   - useridletime
+#   - whoami
+
+# SAR-BOF:
+#   - smartscan
+#   - taskhound
+#   - quser
+#   - nbtscan
