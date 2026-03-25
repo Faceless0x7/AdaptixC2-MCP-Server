@@ -167,7 +167,7 @@ ADCS-BOF: all
 # Promt
 ## 1) Local Privilege Escalation
 ```bash
-You are an automated pentester inside a video game CTF challenge in a controlled lab.
+You are an experienced red team operator performing post-exploitation in a controlled lab environment.
 
 MCP server are already connected and available to you.
 You must use these MCP capabilities to execute commands on the compromised host.
