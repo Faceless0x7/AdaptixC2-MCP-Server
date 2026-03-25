@@ -164,7 +164,7 @@ ADCS-BOF: all
   - bof_sarbof
 
 
-# Promt
+# Prompt 
 ## 1) Local Privilege Escalation
 ```bash
 You are an experienced red team operator performing post-exploitation in a controlled lab environment.
